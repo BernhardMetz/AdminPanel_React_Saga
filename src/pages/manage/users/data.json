@@ -1,0 +1,55 @@
+{
+    "data": [{
+      "id": "1",
+      "email": "test1@test.com",
+      "is_admin": false,
+      "first_name": "jin",
+      "last_name": "ming",
+      "enable_status": true,
+      "connected": true,
+      "day_used_bytes": 12341234,
+      "active_sessions":[
+        {
+            "service": "ikev2-vpn",
+            "down_speed": 12311,
+            "up_speed": 1223
+        },
+        {
+            "service": "ikev2-vpn",
+            "down_speed": 123123412,
+            "up_speed": 1234123
+        }
+      ]
+    }, {
+        "id": "2",
+        "email": "test2@test.com",
+        "is_admin": false,
+        "first_name": "jin",
+        "last_name": "ming",
+        "enable_status": false,
+        "connected": false,
+        "day_used_bytes": 12341555234,
+        "active_sessions":[
+        ]
+        }, {
+        "id": "3",
+        "email": "test3@test.com",
+        "is_admin": false,
+        "first_name": "jin",
+        "last_name": "ming",
+        "enable_status": true,
+        "active_sessions":[
+            {
+                "service": "ikev2-vpn",
+                "down_speed": 2134123,
+                "up_speed": 123412
+            },
+            {
+                "service": "openvpn",
+                "down_speed": 1231234,
+                "up_speed": 1234
+            }
+          ]
+    }]
+  }
+  
